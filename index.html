@@ -8,7 +8,7 @@
   <body>
     <header>
       <nav>
-        <a href="/">Web Studio</a>
+        <a href="/"><span>Web</span> Studio</a>
         <ul>
           <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
@@ -18,13 +18,17 @@
       <ul>
         <li>
           <a href="">
-            <img src="./images/symbol-mail.svg" alt="Символ почты" />
+            <img src="./images/symbol-mail.svg" alt="Символ почты" width="16" />
             info@devstudio.com
           </a>
         </li>
         <li>
           <a href="">
-            <img src="./images/symbol-tel.svg" alt="Символ телефона" />
+            <img
+              src="./images/symbol-tel.svg"
+              alt="Символ телефона"
+              width="16"
+            />
             +38 096 111 11 11
           </a>
         </li>
@@ -32,7 +36,7 @@
     </header>
     <main>
       <section>
-        <img src="./images/header-img.jpg" alt="Фон шапки" width="1600" />
+        <img src="./images/header-img.jpg" alt="Фон шапки" width="480" />
         <h1>
           Эффективные решения <br />
           для вашего бизнеса
@@ -44,7 +48,7 @@
         <!--заголовок будет скрыт-->
         <ul>
           <li>
-            <img src="./images/antenna.jpg" alt="Антена" />
+            <img src="./images/antenna.jpg" alt="Антена" width="65" />
             <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -52,7 +56,7 @@
             </p>
           </li>
           <li>
-            <img src="./images/clock.jpg" alt="Часы" />
+            <img src="./images/clock.jpg" alt="Часы" width="65" />
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -60,7 +64,7 @@
             </p>
           </li>
           <li>
-            <img src="./images/diagram.jpg" alt="Диаграмма" />
+            <img src="./images/diagram.jpg" alt="Диаграмма" width="65" />
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -68,7 +72,7 @@
             </p>
           </li>
           <li>
-            <img src="./images/astronaut.jpg" alt="Астронафт" />
+            <img src="./images/astronaut.jpg" alt="Астронафт" width="65" />
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -76,33 +80,35 @@
             </p>
           </li>
         </ul>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <h3>Десктопные приложения</h3>
-            <img
-              src="./images/desktop.jpg"
-              alt="Фото Десктопные приложения"
-              width="370"
-            />
-          </li>
-          <li>
-            <h3>Мобильные приложения</h3>
-            <img
-              src="./images/mobile.jpg"
-              alt="Фото Мобильные приложения"
-              width="370"
-            />
-          </li>
-          <li>
-            <h3>Дизайнерские решения</h3>
-            <img
-              src="./images/design.jpg"
-              alt="Фото Дизайнерские решения"
-              width="370"
-            />
-          </li>
-        </ul>
+        <section>
+          <h2>Чем мы занимаемся</h2>
+          <ul>
+            <li>
+              <h3>Десктопные приложения</h3>
+              <img
+                src="./images/desktop.jpg"
+                alt="Фото Десктопные приложения"
+                width="370"
+              />
+            </li>
+            <li>
+              <h3>Мобильные приложения</h3>
+              <img
+                src="./images/mobile.jpg"
+                alt="Фото Мобильные приложения"
+                width="370"
+              />
+            </li>
+            <li>
+              <h3>Дизайнерские решения</h3>
+              <img
+                src="./images/design.jpg"
+                alt="Фото Дизайнерские решения"
+                width="370"
+              />
+            </li>
+          </ul>
+        </section>
       </section>
       <section>
         <h2>Наша команда</h2>
@@ -188,25 +194,29 @@
     <footer>
       <h2>Контакты</h2>
       <!--заголовок будет скрыт-->
-      <ul>
-        <li>
-          <a href="/">Web Studio</a>
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <p>info@example.com</p>
-          <p>+38 099 111 11 11</p>
-        </li>
-        <li>
-          <h3>Присоединяйтесь</h3>
+      <div>
+        <div>
+          <ul>
+            <li>
+              <a href="/"><span>Web</span> Studio</a>
+            </li>
+            <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>
+            <li><a href="/">info@example.com</a></li>
+            <li><a href="">+38 099 111 11 11</a></li>
+          </ul>
+        </div>
+        <div>
+          <b>Присоединяйтесь</b>
           <img src="./images/social-links.svg" alt="Cоциальные связи" />
-        </li>
-        <li>
-          <h3>Подпишитесь на рассылку</h3>
+        </div>
+        <div>
+          <b>Подпишитесь на рассылку</b>
 
           <button>
-            Подписаться <img src="./images/icon-send.svg" alt="icon-send" />
+            Подписаться <img src="./images/icon-send.svg" alt="иконка" />
           </button>
-        </li>
-      </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
